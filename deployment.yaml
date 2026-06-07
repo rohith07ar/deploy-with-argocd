@@ -9,7 +9,7 @@ spec:
       app: swiggy
   template:
     metadata:
-      labels
+      labels:
         app: swiggy
     spec:
       containers:
