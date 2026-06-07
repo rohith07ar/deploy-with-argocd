@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-dp
+spec:
+  replicas: 3
+  selector: 
+    matchLabels:
+      app: swiggy
+  template:
+    metadata:
+      app: swiggy
+    spec:
+      containers:
+        - name: mycont1
+          image: rohith03ar/myrepo:javall
+          ports:
+            - containerPort: 8080
