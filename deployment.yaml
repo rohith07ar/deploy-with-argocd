@@ -9,7 +9,8 @@ spec:
       app: swiggy
   template:
     metadata:
-      app: swiggy
+      labels
+        app: swiggy
     spec:
       containers:
         - name: mycont1
