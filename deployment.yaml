@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: mycont1
-          image: rohith03ar/myrepo:javall
+          image: rohith03ar/myrepo:love
           ports:
             - containerPort: 8080
